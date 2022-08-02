@@ -94,6 +94,9 @@ export const NavLinks = styled(LinkRouter)`
   &.active {
     border-bottom: 3px solid #01bf71;
   }
+  &:hover {
+    color: #2d353d;
+  }
 `;
 
 export const Arrowdown = styled(MdKeyboardArrowDown)`

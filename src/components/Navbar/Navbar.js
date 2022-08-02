@@ -17,7 +17,7 @@ import {
 import JAP from "../../image/JAP.png";
 import DMO from "../../image/dmo.png";
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
   const [isHovering, setIsHovering] = useState(false);
   const handleMouseEnter = () => {
     setIsHovering(true);
@@ -40,7 +40,7 @@ const Navbar = () => {
             </DmoLink>
           </LogoContainer>
           <MobileIcon>
-            <FaBars />
+            <FaBars onClick={toggle}/>
           </MobileIcon>
 
           <NavMenu>

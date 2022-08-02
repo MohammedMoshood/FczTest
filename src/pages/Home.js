@@ -15,12 +15,12 @@ const Home = () => {
     };
   return (
     <>
+      <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
       <BackgroundContainer>
         <PictureBg>
           <BgImg src={Img}></BgImg>
         </PictureBg>
-        <Sidebar></Sidebar>
-        <Navbar></Navbar>
+        <Navbar toggle={toggle}></Navbar>
         <HeroSection />
       </BackgroundContainer>
       <Card></Card>
