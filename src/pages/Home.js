@@ -19,7 +19,7 @@ const Home = () => {
       <BackgroundContainer>
         <PictureBg>
           <BgImg src={Img}></BgImg>
-        </PictureBg>
+        </PictureBg>gi
         <Navbar toggle={toggle}></Navbar>
         <HeroSection />
       </BackgroundContainer>
