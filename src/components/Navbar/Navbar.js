@@ -40,7 +40,7 @@ const Navbar = () => {
             </DmoLink>
           </LogoContainer>
           <MobileIcon>
-            <FaBars/>
+            <FaBars />
           </MobileIcon>
 
           <NavMenu>
@@ -68,19 +68,23 @@ const Navbar = () => {
               <NavLinks to="media">Media</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks onMouseEnter={handleMouseEnter} 
-              onMouseLeave={handleMouseLeave}
-              style={{backgroundColor: isHovering? "yellow" : "white" , transition:"0.2s all ease-in-out"  }}
-              buttoned to="contact">
+              <NavLinks
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                style={{
+                  color:isHovering?"white":"green",
+                  backgroundColor: isHovering ? "#2d353d" : "white",
+                  transition: "0.3s all ease-in-out",
+                }}
+                buttoned
+                to="contact"
+              >
                 Contact us
               </NavLinks>
             </NavItem>
           </NavMenu>
           <JapLink href="">
-            <LagosLogo
-              src={JAP}
-              alt="Lagos state Logo"
-            ></LagosLogo>
+            <LagosLogo src={JAP} alt="Lagos state Logo"></LagosLogo>
           </JapLink>
         </NavbarContainer>
       </Nav>

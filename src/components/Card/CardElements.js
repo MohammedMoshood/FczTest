@@ -9,7 +9,7 @@ export const CardContainer = styled.div`
   height: 600px;
   width: 100%;
   position: relative;
-  z-index: 1;
+  z-index: 3;
 `;
 export const CardBg = styled.div`
   width: 65%;
