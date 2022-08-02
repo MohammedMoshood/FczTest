@@ -3,6 +3,7 @@ import HeroSection from '../components/HeroSection/HeroSection'
 import Navbar from '../components/Navbar/Navbar'
 import { BackgroundContainer , BgImg, PictureBg } from '../components/StatichomeElements'
 import Img from '../image/bg.jpg'
+import Card from '../components/Card/Card'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Navbar></Navbar>
         <HeroSection />
       </BackgroundContainer>
+      <Card></Card>
     </>
   );
 }
