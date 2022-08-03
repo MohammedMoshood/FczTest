@@ -1,4 +1,4 @@
-import  styled from "styled-components"
+import styled from "styled-components";
 
 export const InfoCard = styled.div`
   background: white;
@@ -16,7 +16,6 @@ export const InfoCard = styled.div`
     margin: 24px auto;
     border-radius: 20px;
     justify-content: left;
-    
   }
   &:hover {
     background: lightgrey;
@@ -25,29 +24,27 @@ export const InfoCard = styled.div`
 `;
 
 export const ImgWrap = styled.div`
-    width: 120px; 
-    background: transparent;
-    height: 120px;
-    border-radius: 100px;
-    margin: 20px ;
-    align-items: center;
-    justify-content: center;
-    /* border: 0.5px green solid ; */
-
+  width: 120px;
+  background: transparent;
+  height: 120px;
+  border-radius: 100px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  /* border: 0.5px green solid ; */
 `;
 
 export const InfoImg = styled.img`
   max-width: 100px;
   height: 80px;
-  margin:20px 22px;
+  margin: 20px 22px;
 `;
 export const InfoCardHeading = styled.h3`
-font-size: 36px;
-text-decoration: none;
-margin-top: -80px ;
-margin-left: 36px;
-max-width: 70%;
-
+  font-size: 36px;
+  text-decoration: none;
+  margin-top: -80px;
+  margin-left: 36px;
+  max-width: 70%;
 `;
 export const InfoText = styled.p`
   font-size: 20px;
@@ -56,4 +53,5 @@ export const InfoText = styled.p`
   margin-left: 36px;
   max-width: 80%;
   line-height: 1.2;
+ 
 `;

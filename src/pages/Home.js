@@ -1,8 +1,7 @@
 import React , {useState}from 'react'
 import HeroSection from '../components/HeroSection/HeroSection'
 import Navbar from '../components/Navbar/Navbar'
-import { BackgroundContainer , BgImg, PictureBg } from '../components/StatichomeElements'
-import Img from '../image/bg.jpg'
+import { BackgroundContainer } from '../components/StatichomeElements'
 import Card from '../components/Card/Card'
 import InfoSection from '../components/InfoSection/InfoSection'
 import Sidebar from '../components/Sidebar/Sidebar'
@@ -17,9 +16,9 @@ const Home = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
       <BackgroundContainer>
-        <PictureBg>
-          <BgImg src={Img}></BgImg>
-        </PictureBg>gi
+        
+
+       
         <Navbar toggle={toggle}></Navbar>
         <HeroSection />
       </BackgroundContainer>

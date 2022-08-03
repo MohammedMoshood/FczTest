@@ -5,7 +5,7 @@ export const InfoContainer = styled.div`
   background: #e4f0f0;
   z-index: 1;
   margin-top: -200px;
-  width: 100%;
+  max-width: 100%;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -19,7 +19,7 @@ export const InfoContainer = styled.div`
   }
 `;
 export const InfoWrapper = styled.div`
-  max-width: 2000px;
+  max-width: 100%;
   height: 20%;
   display: grid;
   align-items: center;
@@ -61,7 +61,7 @@ export const InfoRow = styled.div`
   display: flex;
   background: transparent;
   color: black;
-  width: 2000px;
+  width: 100%;
   height: 500px;
   align-items: center;
   justify-content: center;

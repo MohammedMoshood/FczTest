@@ -2,6 +2,7 @@ import React from 'react'
 import { CloseIcon, SidebarContainer , Icon, SideBarWrapper, SideBarMenu, SideBarLink} from './SidebarElements'
 
 const Sidebar = ({isOpen , toggle}) => {
+
   return (
     <>
       <SidebarContainer isOpen={isOpen} onClick={toggle}>
@@ -17,7 +18,7 @@ const Sidebar = ({isOpen , toggle}) => {
             <SideBarLink to="reports">Reports</SideBarLink>
             <SideBarLink to="projects">Projects</SideBarLink>
             <SideBarLink to="media">Media</SideBarLink>
-            <SideBarLink buttoned style={{ width:"200px" , height:"50px"  , margin:"24px auto" , padding:"0 40px"}} to="contact">Contact us</SideBarLink>
+            <SideBarLink buttoned="true" style={{ width:"200px" , height:"50px"  , margin:"24px auto" , padding:"0 40px"}} to="contact">Contact us</SideBarLink>
           </SideBarMenu>
         </SideBarWrapper>
       </SidebarContainer>

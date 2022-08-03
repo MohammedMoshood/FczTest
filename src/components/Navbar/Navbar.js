@@ -76,7 +76,7 @@ const Navbar = ({toggle}) => {
                   backgroundColor: isHovering ? "#2d353d" : "white",
                   transition: "0.3s all ease-in-out",
                 }}
-                buttoned
+                buttoned="true"
                 to="contact"
               >
                 Contact us

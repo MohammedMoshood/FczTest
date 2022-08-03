@@ -1,28 +1,18 @@
 import styled from "styled-components";
+import bg from "../image/bg.jpg"
 
 export const BackgroundContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  height: 1200px;
-  margin-top: -20px;
-  position: relative;
-  z-index: 1;
-`;
-export const PictureBg = styled.div`
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+  
+    display: flex;
+    justify-content: center;
+    height: 1200px;
+    background-size: 100%;
+    margin-top: -20px;
+    position: relative;
+    z-index: 1;
+    background-image: url(${bg});
+ 
+  
 `;
 
-export const BgImg = styled.img`
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  background: #232a24;
-`;
+
